@@ -1,10 +1,15 @@
-# Python program to print positive Numbers in given range
-
-start, end = -4, 19
-
-# iterating each number in list
-for num in range(start, end + 1):
-	
-	# checking condition
-	if num >= 0:
-		print(num, end = " ")
+# Python program to print positive Numbers in a List
+  
+# list of numbers
+list1 = [12, -7, 5, 64, -14]
+num = 0
+  
+# using while loop     
+while(num < len(list1)):
+      
+    # checking condition
+    if list1[num] >= 0:
+        print(list1[num], end = " ")
+      
+    # increment num 
+    num += 1
